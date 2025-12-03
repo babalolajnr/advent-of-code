@@ -113,7 +113,7 @@ mod tests {
     #[test]
     fn test_solve_part1() {
         let input = std::io::read_to_string(
-            File::open("src/day1/input.txt").expect("Failed to open input file"),
+            File::open("../inputs/day1_input.txt").expect("Failed to open input file"),
         )
         .expect("Failed to read input file");
         assert_eq!(solve_part1(&input, 50), 1034);
@@ -138,7 +138,7 @@ mod tests {
     #[test]
     fn test_solve_part2_sample() {
         let input = std::io::read_to_string(
-            File::open("src/day1/sample.txt").expect("Failed to open input file"),
+            File::open("../inputs/day1_sample.txt").expect("Failed to open input file"),
         )
         .expect("Failed to read input file");
         assert_eq!(solve_part2(&input, 50), 6);
@@ -147,7 +147,7 @@ mod tests {
     #[test]
     fn test_solve_part2() {
         let input = std::io::read_to_string(
-            File::open("src/day1/input.txt").expect("Failed to open input file"),
+            File::open("../inputs/day1_input.txt").expect("Failed to open input file"),
         )
         .expect("Failed to read input file");
         assert_eq!(solve_part2(&input, 50), 6166);
