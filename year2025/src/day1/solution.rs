@@ -136,11 +136,20 @@ mod tests {
     }
 
     #[test]
-    fn test_solve_part2() {
+    fn test_solve_part2_sample() {
         let input = std::io::read_to_string(
             File::open("src/day1/sample.txt").expect("Failed to open input file"),
         )
         .expect("Failed to read input file");
         assert_eq!(solve_part2(&input, 50), 6);
+    }
+
+    #[test]
+    fn test_solve_part2() {
+        let input = std::io::read_to_string(
+            File::open("src/day1/input.txt").expect("Failed to open input file"),
+        )
+        .expect("Failed to read input file");
+        assert_eq!(solve_part2(&input, 50), 6166);
     }
 }
