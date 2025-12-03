@@ -7,14 +7,14 @@ This workspace contains solutions for Advent of Code challenges organized by yea
 ```
 advent-of-code/
 ├── Cargo.toml          # Workspace root
-├── year2015/           # 2015 solutions
+├── year2025/           # 2025 solutions
 │   ├── Cargo.toml
 │   └── src/
 │       ├── main.rs
 │       ├── lib.rs
 │       └── day1/
-├── year2016/           # 2016 solutions (when added)
-├── year2017/           # 2017 solutions (when added)
+├── year2026/           # 2026 solutions (when added)
+├── year2027/           # 2027 solutions (when added)
 └── ...
 ```
 
@@ -22,12 +22,12 @@ advent-of-code/
 
 Run a specific year:
 ```sh
-cargo run -p year2015
+cargo run -p year2025
 ```
 
 Run tests for a specific year:
 ```sh
-cargo test -p year2015
+cargo test -p year2025
 ```
 
 Check all crates:
